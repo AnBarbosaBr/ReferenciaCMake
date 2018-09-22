@@ -1,0 +1,3 @@
+/home/andre/Documentos/TESTE/cmakeT/build/CMakeFiles/rebuild_cache.dir
+/home/andre/Documentos/TESTE/cmakeT/build/CMakeFiles/teste.dir
+/home/andre/Documentos/TESTE/cmakeT/build/CMakeFiles/edit_cache.dir
