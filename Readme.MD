@@ -19,6 +19,36 @@ file(GLOB SOURCES "src/*.cpp")
 
 add_executable(teste ${SOURCES})
 ```
+
+# Utilização
+Após adicionar o CMakeLists.txt à raiz de seu código, e adaptá-lo a seu projeto, acesse o diretório *build*, e utilize o comando *cmake ..*
+Em seguida, utilize o comando *make* para criar o arquivo.
+
+```sh
+$ cd ./build
+$ cmake ..
+-- The C compiler identification is GNU 6.4.0
+-- The CXX compiler identification is GNU 6.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: .../build
+
+$ make
+
+```
+	
 ## Tutoriais Úteis
 [DerekMolloy - Introdução ao CMake](http://derekmolloy.ie/hello-world-introductions-to-cmake/)
 
